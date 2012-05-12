@@ -271,4 +271,4 @@ com! SfJumpToView call s:SfJumpToView()
 " create a mapping only in a Controller file
 autocmd BufEnter *Controller.php nmap <buffer><leader>v :SfJumpToView<CR>
 
-source machine_specifics
+source ~/.vim/machine_specifics
